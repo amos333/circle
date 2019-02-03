@@ -1,3 +1,4 @@
+// Start Functions
 function draw() {
     var canvas = document.querySelector("#mycanvas");
     var context = canvas.getContext('2d');
@@ -60,6 +61,7 @@ function calculate() {
     
 }
 
+// End Functions
 var n = document.querySelector("#calculateBtn");
 var nClear = document.querySelector("#clearBtn");
 nClear.addEventListener("click", clearCanvas);
