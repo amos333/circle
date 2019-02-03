@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>task</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <div id="container">
+        <div class="flex-item">
+            <h1>Sphere volume calculation:</h1>
+            <input type="text" id="inputRadius" class="form-control-plaintext" placeholder="Enter Radius: " autofocus>
+            <button type="button" class="btn btn-primary mybuttons" id="calculateBtn">RADIUS</button>
+            <button type="button" class="btn btn-primary mybuttons" id="volumeBtn" >VOLUME</button>
+            <br />
+            <br />
+            <button type="button" class="btn btn-primary mybuttons" id="clearBtn" >Clear</button>
+            <span id="output">&nbsp;</span>           
+            
+            <div class="flex-item">
+                <canvas id="mycanvas" width="400px" height="400px"></canvas>       
+            </div>
+        </div>
+    </div>
+</body>
+<script src="main.js" type="application/javascript"></script>
+</html>
